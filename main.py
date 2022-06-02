@@ -5,7 +5,7 @@ os.system("git remote remove upstream")
 
 def fileing(i):
     with open("Readme.md","w") as file:
-       file.write("\n ## Hack Github Commit \n ### Watch video <a href=\"https://www.youtube.com/channel/UCelbvkWLSOj8eQjDd79ZN9g\">here</a> \n {} \n".format(i))
+       file.write("## {}\n".format(i))
        file.close()
 
 def load():
